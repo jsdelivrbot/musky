@@ -11,13 +11,11 @@
     "botkit": "^0.6.15",
     "botkit-storage-firebase": "git+https://github.com/esjay/botkit-storage-firebase.git",
     "botkit-storage-mongo": "^1.0.6",
-    "botkit-studio-metrics": "^0.0.2",
     "cookie-parser": "^1.4.3",
     "debug": "^2.3.3",
     "dotenv": "^6.0.0",
     "express": "^4.14.0",
     "express-hbs": "^1.0.4",
-    "querystring": "^0.2.0",
     "request": "^2.79.0",
     "wordfilter": "^0.2.6"
   },

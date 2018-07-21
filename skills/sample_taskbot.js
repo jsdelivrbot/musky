@@ -60,7 +60,7 @@ module.exports = function(controller) {
 
             user.tasks.push(newtask);
 
-            controller.storage.users.save(user, function(err,saved) {
+            controller.storage.users.save(user, function(err) {
 
                 if (err) {
                     bot.reply(message, 'I experienced an error adding your task: ' + err);
