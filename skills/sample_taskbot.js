@@ -29,7 +29,7 @@ module.exports = function(controller) {
         controller.storage.users.get(message.user, function(err, user) {
 
             // user object can contain arbitary keys. we will store tasks in .tasks
-            if (!user || !user.tasks || user.tasks.length == 0) {
+            if (!user || !user.tasks || user.tasks.length === 0) {
                 bot.reply(message, 'There are no tasks on your list. Say `add _task_` to add something.');
             } else {
 
@@ -130,4 +130,4 @@ module.exports = function(controller) {
         return text;
 
     }
-}
+};
